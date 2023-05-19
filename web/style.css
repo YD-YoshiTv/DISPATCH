@@ -1,0 +1,91 @@
+* {
+    cursor: pointer;
+}
+
+body {
+    display: none;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.dispatch {
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 170px;
+    background-color: black;
+    border-radius: 25px 8px 25px 8px;
+}
+
+.dispatch .logo {
+    position: absolute;
+    left: 24px;
+    top: 8px;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.dispatch .code {
+    position: absolute;
+    left: 24px;
+    top: 91px;
+    width: 70px;
+    height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    background-color: orange;
+}
+
+.dispatch h1 {
+    position: absolute;
+    left: 90%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 300px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.dispatch button {
+    position: relative;
+    display: flex;
+    left: 43%;
+    top: 33%;
+    padding: 10px 26px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    background-color: orange;
+    border-radius: 25px;
+}
+
+.dispatch button i {
+    position: relative;
+    margin-top: 4px;
+    left: -4px;
+}
+
+.dispatch #moveicon {
+    position: absolute;
+    left: 40px;
+    top: 128px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.dispatch .inf {
+    position: absolute;
+    left: 75%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    font-size: 8px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
